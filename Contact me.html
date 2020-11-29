@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>My Contact Details</title>
-       
+        
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -16,7 +16,6 @@
         <![endif]-->
         <h2>My Contact Details</h2>
         <br>
-        <br><br>
         <h3>
         <ol>
         <li>Facebook</li>
@@ -25,6 +24,23 @@
         <li>Linked In</li>
         </ol>
         </h3>
-        <script src="" async defer></script>
+        <form action="mailto:info@trillionquotes.com" method="post" enctype="text/plain" >
+
+        <lable>Your Name</lable>
+        <input type="text" name="YourName" value=""><br><br>
+
+        <lable>Email</lable>
+        <input type="text" name="YourEmail" value=""><br><br>
+
+        <lable>Your Message</lable><br>
+        <textarea name="YourMessage" rows="10" cols="80"></textarea><br><br>
+
+        <input type="submit" namne="">
+
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+
     </body>
 </html>
